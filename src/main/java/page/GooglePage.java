@@ -24,6 +24,10 @@ public class GooglePage {
         return driver.findElement(searchBoxSelector).getText();
     }
 
+    public void openGmail() {
+
+    }
+
     private WebDriver driver;
     private By searchBoxSelector = By.name("q");
 }
